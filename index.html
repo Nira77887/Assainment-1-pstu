@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <!-- google font  -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+                <!--daisy ul cdn  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+   .poppins{
+                font-family: "Poppins", sans-serif;
+   }             
+</style>
+<script>
+                tailwind.config = {
+                  theme: {
+                    extend: {
+                      colors: {
+                        clifford: '#E76F51',
+                        'bikeprimary': '#E76F51', 
+                        'bikeprimary-bg': 'rgba(231, 111, 81, 0.1)',
+
+
+
+                      }
+                    }
+                  }
+                }
+              </script>
+
+</head>
+<body class="font-poppins">
+             
+                <!-- header section  -->
+      <header>
+<nav>
+                <div class="navbar ">
+                                <div class="navbar-start">
+                                  <div class="dropdown">
+                                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          stroke-width="2"
+                                          d="M4 6h16M4 12h8m-8 6h16" />
+                                      </svg>
+                                    </div>
+                                    <ul
+                                      tabindex="0"
+                                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                     
+                                      <li><a>Home</a></li>
+                                      <li><a>Menu</a></li>
+                                      <li><a>About Us</a></li>
+                                      <li><a>Contact</a></li>
+                                    </ul>
+                                  </div>
+                                  <a class="btn text-xl text-clifford">Fresco</a>
+                                </div>
+                                <div class="navbar-center hidden lg:flex">
+                                  <ul class="menu menu-horizontal px-1">
+                                    <li><a>Home</a></li>
+                                    <li><a>Menu</a></li>
+                                    <li><a>About Us</a></li>
+                                    <li><a>Contact</a></li>
+                                  
+
+                                  
+
+                                  </ul>
+                                </div>
+                                <div class="navbar-end  flex space-x-5">
+                                  <h6>icon <i class="fa-solid fa-magnifying-glass"></i></h6>  
+                                  <a class="btn ">Reservation</a>
+                                </div>
+                              </div>
+</nav>
+
+      </header>       
+         <!-- main section -->
+          <main class="">
+
+          
+          <div class="relative">
+                <!-- Banner Image -->
+                <img src="./assets/1 banner.jpg" alt="Featured Bike" class="h-50">
+                
+                <!-- Text overlay on top of the image -->
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-white space-y-4 bg-black bg-opacity-50">
+                                <h1 class="text-5xl font-bebas font-bold">Country's Most Loved Restaurant</h1>
+                                <h2 class="text-4xl font-bebas">Welcome to Our Tasteful World</h2>
+                                <p class="text-xl font-bebas text-center">Locally Crafted Food & Wine Serving Since 1978. Experience a blend of tradition and innovation.</p>
+                           
+                </div>
+            </div>
+            
+          
+            <!-- latest bike section -->
+             <section class="my-24">
+        <h2 class="text-5xl font-semibold text-center mb-12">Fresco</h2>
+              <!-- cards -->
+               <div class="grid grid cols-1 gap-12  md:grid-cols-2 lg:grid-cols-3">
+                <!-- card -1 -->
+                <div class="card bg-base-100 shadow-xl">
+                                <figure>
+                                  <img
+                                    src="./assets/22 res.jpg"
+                                    alt="Shoes"class="w-full h-100 object-cover" />
+                                </figure>
+                                <div class="card-body space-y-5">
+                                  <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                  <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-black text-white"> More About Us</button>
+                                  </div>
+                                </div>
+                              </div>
+                   <!-- card -2 -->
+                   <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img
+                        src="./assets/1 rs.jpg"
+                        alt="Shoes"class="w-full h-100 object-cover" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                                <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                <div class="card-actions">
+                                  <button class="btn bg-black text-white"> More About Us</button>
+                                </div>
+                              </div>
+                  </div>
+                     <!-- card -3 -->
+                     <div class="card bg-base-100 shadow-xl">
+                                <figure>
+                                  <img
+                                    src="./assets/2 rs.jpg"
+                                    alt="Shoes"class="w-full h-100 object-cover" />
+                                </figure>
+                                <div class="card-body space-y-5">
+                                                <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                                <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                                <div class="card-actions">
+                                                  <button class="btn bg-black  text-white"> More About Us</button>
+                                                </div>
+                                              </div>
+                              </div>
+                              <!-- card 4 -->
+                              <div class="card bg-base-100 shadow-xl">
+                                <figure>
+                                  <img
+                                    src="./assets/111.jpg"
+                                    alt="Shoes"class="w-full h-100 object-cover" />
+                                </figure>
+                                <div class="card-body space-y-5">
+                                  <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                  <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-black text-white"> More About Us</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- card 5 -->
+                              <div class="card bg-base-100 shadow-xl">
+                                <figure>
+                                  <img
+                                    src="./assets/222.jpg"
+                                    alt="Shoes"class="w-full h-100 object-cover" />
+                                </figure>
+                                <div class="card-body space-y-5">
+                                  <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                  <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-black text-white"> More About Us</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- card 6 -->
+                              <div class="card bg-base-100 shadow-xl">
+                                <figure>
+                                  <img
+                                    src="./assets/33333.jpg"
+                                    alt="Shoes"class="w-full h-100 object-cover" />
+                                </figure>
+                                <div class="card-body space-y-5">
+                                  <h1 class="text-2xl font-bold text-center">We Are Locally Crafted Food & Wine Serving Since 1978.</h1>
+                                  <p class="text-lg text-center text-gray-600">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-black  text-white"> More About Us</button>
+                                  </div>
+                                </div>
+                              </div>
+              
+                </div>
+               </div>
+             </section>
+             <!-- 3rd section -->
+              
+          </main>
+          <!-- footer section -->
+
+<footer class="bg-cover bg-center text-white py-6" style="background-image: url('./assets/footer.jpg');">
+    <div class="container mx-auto text-center">
+                <h2 class="text-5xl text-white font-extrabold mb-2">Fresco</h2>
+                <p class="text-gray-400 mb-4">Exploring the beauty and tranquility of nature along the river bank.</p>
+          
+                <!-- Footer Links -->
+                <div class="flex text-black justify-center space-x-6 mb-4">
+                    <a href="#" class="text-gray-400 hover:text-white">About Us</a>
+                    <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+                    <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white">Terms of Service</a>
+                </div>
+          
+                <!-- Social Media Icons -->
+                <div class="flex justify-center space-x-4 mb-4">
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-black hover:text-white">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+          
+                <!-- Copyright -->
+                <p class="text-black">&copy; 2024 Fresco. All rights reserved.</p>
+            
+
+       
+    </div>
+</footer>
+
+
+
+</body>
+</html>
